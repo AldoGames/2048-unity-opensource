@@ -1,29 +1,15 @@
-# README #
+# 2048 Unity (OpenSource) # 
+A small clone of [2048](https://github.com/gabrielecirulli/2048) (also a clone).
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Making just for fun using modern game engine ([Unity](https://www.unity3d.com) )
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Cross platform via [Unity](https://www.unity3d.com) 
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+todo
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## License
+2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
