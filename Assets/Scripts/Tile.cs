@@ -7,8 +7,8 @@ public class Tile {
 	private int y;
 	private int value;
 	
-	private Position previousPosition = new Position();
-	private Position mergedFrom = new Position();
+	private Position previousPosition;
+	private Position mergedFrom;
 
 	public Tile(Position position,int _value){
 		x = position.x;
@@ -21,7 +21,7 @@ public class Tile {
 
 	public void savePosition(){
 
-		previousPosition = Position(x, y);
+		previousPosition = new Position(x, y);
 	}
 
 	public void updatePosition(Position position){
