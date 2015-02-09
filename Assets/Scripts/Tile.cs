@@ -7,8 +7,8 @@ public class Tile {
 	private int y;
 	private int value;
 	
-	private Position previousPosition;
-	private Position mergedFrom;
+	private Position previousPosition = new Position();
+	private Position mergedFrom = new Position();
 
 	public Tile(Position position,int _value){
 		x = position.x;

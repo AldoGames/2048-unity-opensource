@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	private State state;
+
 	// Use this for initialization
 	void Start () {
 	

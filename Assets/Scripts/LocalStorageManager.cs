@@ -1,15 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LocalStorageManager : MonoBehaviour {
+public class LocalStorageManager {
 
-	// Use this for initialization
-	void Start () {
-	
+	private string bestScoreKey = "bestScore";
+	private string gameStateKey = "gameState";
+
+
+	// Best score getters/setters
+
+	public int getBestScore(){
+		return PlayerPrefs.GetInt(bestScoreKey);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void setBestScore(int score){
+		PlayerPrefs.SetInt(bestScoreKey, score);
 	}
+
+	// Game state getters/setters and clearing
+	// to do
+
+
 }
